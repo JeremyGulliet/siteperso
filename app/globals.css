@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .scroll-mt-header {
+    scroll-margin-top: 6rem;
+  }
+  .scroll-mt-header-responsive {
+    scroll-margin-top: 5rem;
+  }
+}
+
