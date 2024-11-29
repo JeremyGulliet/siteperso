@@ -9,7 +9,7 @@ const karla = Karla({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000/"),
+  metadataBase: new URL("https://jeremy-gulliet.vercel.app/"),
   title: "Jérémy GULLIET - Développement Web & Création de Sites Internet",
   description:
     "Expert en création de sites web et landing pages sur-mesure. Développement web professionnel, responsive design et accompagnement personnalisé de A à Z.",
@@ -64,10 +64,10 @@ export const metadata: Metadata = {
       "Jérémy GULLIET | Développeur Web - Création de Sites Internet Sur-Mesure",
     description:
       "Expert en création de sites web et landing pages. Je développe votre présence en ligne avec des solutions web professionnelles et personnalisées.",
-    url: "https://jeremy-gulliet.fr/", // À modifier avec votre URL
+    url: "https://jeremy-gulliet.vercel.app/",
     images: [
       {
-        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png", // À modifier avec votre image
+        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png",
         width: 1200,
         height: 630,
         alt: "Jérémy GULLIET - Développeur Web",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
       "Création de sites web et landing pages sur-mesure. Solutions web professionnelles et accompagnement personnalisé.",
     images: [
       {
-        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png", // À modifier avec votre image
+        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png",
         width: 1200,
         height: 630,
         alt: "Jérémy GULLIET - Développeur Web",
@@ -103,11 +103,8 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "verification_token", // À remplacer par votre token Google Search Console
-  },
   alternates: {
-    canonical: "https://jeremy-gulliet.fr/", // À modifier avec votre URL
+    canonical: "https://jeremy-gulliet.vercel.app/",
   },
 };
 
@@ -120,6 +117,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${karla.className} antialiased`}>
+        {/* Google Tag Manager (noscript) */}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN76QMBG"
+height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
+{/* End Google Tag Manager (noscript) */}
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1 bg-gradient-to-r from-espace to-black pt-24">

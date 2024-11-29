@@ -11,7 +11,7 @@ export const cards: card[] = [
     id: 1,
     title: "Création d'un site vitrine de A à Z",
     description: "J'ai réalisé ce site en partant de 0. J'ai créé le design, le contenu, le développement et le déploiement.",
-    image: "/asset/images/Portfolio.png",
+    image: "/asset/Images/Portfolio.png",
     link: "https://jeremy-gulliet.vercel.app/",
   },
   {
