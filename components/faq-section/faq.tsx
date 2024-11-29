@@ -39,7 +39,7 @@ export default function Faq() {
               value={card.value}
               className="w-full text-justify text-sm sm:text-base md:text-lg"
             >
-              <AccordionTrigger className="text-left font-semibold">
+              <AccordionTrigger className="text-left">
                 {card.title}
               </AccordionTrigger>
               <AccordionContent className="text-white">
@@ -52,7 +52,7 @@ export default function Faq() {
 
       <div className="flex flex-wrap items-center justify-center gap-2 py-6 text-center text-xl font-medium text-white sm:py-8 md:text-2xl">
         🚀 Alors, prêt à faire{" "}
-        <p className="-rotate-3 rounded-2xl bg-nebuleuse p-2 font-bold">
+        <p className="-rotate-6 rounded-2xl bg-nebuleuse p-2 font-bold">
           décoller
         </p>{" "}
         ton activité ? 🚀

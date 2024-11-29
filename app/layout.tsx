@@ -9,12 +9,108 @@ const karla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "Jérémy GULLIET - Un site à votre image.",
-  description: "Je réalise un site web ou une landing page à votre image.",
+  metadataBase: new URL("http://localhost:3000/"),
+  title: "Jérémy GULLIET - Développement Web & Création de Sites Internet",
+  description:
+    "Expert en création de sites web et landing pages sur-mesure. Développement web professionnel, responsive design et accompagnement personnalisé de A à Z.",
   icons: {
     icon: "/asset/Logo/Logo_provisoire_Jérémy_Gulliet-22.png",
   },
+  keywords: [
+    // Technologies
+    "développement web",
+    "création site internet",
+    "site web sur mesure",
+    "landing page",
+    "site vitrine",
+    "responsive design",
+    "site mobile",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React",
+    "Next.js",
+
+    // Services
+    "création site web professionnel",
+    "développeur web freelance",
+    "intégration web",
+    "webdesign",
+    "UI/UX design",
+    "maquette web",
+    "refonte site internet",
+    "maintenance site web",
+
+    // SEO & Performance
+    "site web performant",
+    "optimisation SEO",
+    "référencement naturel",
+    "site web rapide",
+    "web design moderne",
+    "expérience utilisateur",
+
+    // Géolocalisation
+    "développeur web France",
+    "création site internet France",
+
+    // Spécificités
+    "accompagnement personnalisé",
+    "projet web sur mesure",
+    "site internet professionnel",
+    "développement sur mesure",
+  ],
+  openGraph: {
+    title:
+      "Jérémy GULLIET | Développeur Web - Création de Sites Internet Sur-Mesure",
+    description:
+      "Expert en création de sites web et landing pages. Je développe votre présence en ligne avec des solutions web professionnelles et personnalisées.",
+    url: "https://jeremy-gulliet.fr/", // À modifier avec votre URL
+    images: [
+      {
+        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png", // À modifier avec votre image
+        width: 1200,
+        height: 630,
+        alt: "Jérémy GULLIET - Développeur Web",
+      },
+    ],
+    siteName: "Jérémy GULLIET - Développement Web & Création de Sites Internet",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jérémy GULLIET | Développeur Web Freelance",
+    description:
+      "Création de sites web et landing pages sur-mesure. Solutions web professionnelles et accompagnement personnalisé.",
+    images: [
+      {
+        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png", // À modifier avec votre image
+        width: 1200,
+        height: 630,
+        alt: "Jérémy GULLIET - Développeur Web",
+      },
+    ],
+    creator: "@JeremyGulliet",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "verification_token", // À remplacer par votre token Google Search Console
+  },
+  alternates: {
+    canonical: "https://jeremy-gulliet.fr/", // À modifier avec votre URL
+  },
 };
+
 
 export default function RootLayout({
   children,

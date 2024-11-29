@@ -9,5 +9,12 @@
   .scroll-mt-header-responsive {
     scroll-margin-top: 5rem;
   }
+  .question-bubble {
+  @apply rounded-2xl bg-nebuleuse px-8 py-4 text-3xl font-medium text-center ;
 }
+.question-bubble-mobile {
+  @apply rounded-2xl bg-nebuleuse w-80 px-3 py-4 text-2xl font-medium text-center;
+}
+}
+
 

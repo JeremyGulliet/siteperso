@@ -21,7 +21,7 @@ export const cards: Card[] = [
   {
     id: 3,
     value: "item-3",
-    title: "Comment se déroule de le règlement de la prestation?",
+    title: "Comment se déroule le règlement de la prestation?",
     content: "Il y a un accompte de 30% à régler à la signature du devis. 30% à la validation de la maquette et le solde est à la livraison du projet.",
   },
   {

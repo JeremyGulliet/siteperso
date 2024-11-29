@@ -19,8 +19,12 @@ interface menuItems {
   icon?: JSX.Element;
 }
 const menuItems = [
-  { href: "/", label: "Accueil", icon: <AiOutlineHome /> },
-  { href: "/#besoins", label: "Besoins", icon: <MdOutlineAssignment /> },
+  { href: "/", label: "Découvrir", icon: <AiOutlineHome /> },
+  {
+    href: "/#accompagnement",
+    label: "Accompagnement",
+    icon: <MdOutlineAssignment />,
+  },
   { href: "/#about", label: "A propos", icon: <BsPerson /> },
   {
     href: "/#réalisations",
