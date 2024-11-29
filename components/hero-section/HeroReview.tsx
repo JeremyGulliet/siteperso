@@ -18,7 +18,6 @@ export default function HeroReview() {
         texte="Jérémy a réalisé mon site professionnel. C'est une super landing page pour présenter mon service, mes offres et qui je suis. Il a su m'accompagner de A à Z et me conseiller sur les différentes parties à faire figurer sur mon site. Je ne saurais que vous recommander de travailler avec lui pour votre site ou votre landing page."
         auteurNom="Laura Mezzone"
         auteurFunction="Ghostwriter"
-        auteurImage="/asset/Images/Logo-Secondaire-Blanc.png"
       />
     </main>
   );

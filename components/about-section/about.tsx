@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client"
+
 import { useInView, motion } from "motion/react";
 import Image from "next/image";
 import { useRef } from "react";

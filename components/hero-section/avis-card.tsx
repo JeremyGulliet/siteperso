@@ -1,11 +1,10 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 
 interface AvisCardProps {
   texte: string;
   auteurNom: string;
-  auteurImage: string;
+  auteurImage?: string;
   auteurFunction: string;
 }
 
@@ -13,7 +12,6 @@ export default function AvisCard({
   texte,
   auteurNom,
   auteurFunction,
-  auteurImage,
 }: AvisCardProps) {
   return (
     <Card className="group mx-auto w-full max-w-md bg-white">
@@ -27,16 +25,6 @@ export default function AvisCard({
         </div>
       </CardContent>
       <CardFooter className="flex items-center gap-2 rounded-b-xl border-t border-purple bg-nebuleuse p-3 pt-2 md:gap-4 md:p-4">
-        <Avatar className="h-10 w-10 md:h-12 md:w-12">
-          <AvatarImage src={auteurImage} alt={auteurNom} />
-          <AvatarFallback>
-            {auteurNom
-              .split(" ")
-              .map((n) => n[0])
-              .join("")
-              .toUpperCase()}
-          </AvatarFallback>
-        </Avatar>
         <div>
           <p className="md:text-md text-sm font-semibold text-white">
             {auteurNom}
