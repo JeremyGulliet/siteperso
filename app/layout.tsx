@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     url: "https://jeremy-gulliet.vercel.app/",
     images: [
       {
-        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png",
+        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-23.png",
         width: 1200,
         height: 630,
         alt: "Jérémy GULLIET - Développeur Web",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
       "Création de sites web et landing pages sur-mesure. Solutions web professionnelles et accompagnement personnalisé.",
     images: [
       {
-        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-24.png",
+        url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-23.png",
         width: 1200,
         height: 630,
         alt: "Jérémy GULLIET - Développeur Web",

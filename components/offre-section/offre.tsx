@@ -11,10 +11,10 @@ export default function Offre() {
         <h1 className="text-center text-2xl font-extrabold leading-tight text-purple sm:text-[32px] md:text-5xl md:leading-snug">
           Des offres pour ton image
         </h1>
-        <h3 className="w-full text-center text-lg font-bold text-white sm:text-xl md:w-7/12 md:text-2xl">
+        <p className="w-full text-center text-lg font-bold text-white sm:text-xl md:w-7/12 md:text-2xl">
           Quelque soit ton projet, je te construit une offre adaptée à tes
           besoins.
-        </h3>
+        </p>
         <div className="flex w-full max-w-7xl flex-col flex-wrap justify-center gap-6 pt-4 sm:flex-row sm:gap-12">
           {cards.map((card) => (
             <OfferCard
