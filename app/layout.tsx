@@ -9,7 +9,7 @@ const karla = Karla({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jeremy-gulliet.vercel.app/"),
+  metadataBase: new URL("https://www.jeremygulliet.fr/"),
   title: "Jérémy GULLIET - Développement Web & Création de Sites Internet",
   description:
     "Expert en création de sites web et landing pages sur-mesure. Développement web professionnel, responsive design et accompagnement personnalisé de A à Z.",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
       "Jérémy GULLIET | Développeur Web - Création de Sites Internet Sur-Mesure",
     description:
       "Expert en création de sites web et landing pages. Je développe votre présence en ligne avec des solutions web professionnelles et personnalisées.",
-    url: "https://jeremy-gulliet.vercel.app/",
+    url: "https://www.jeremygulliet.fr/",
     images: [
       {
         url: "/asset/Images/Logo_provisoire_Jérémy_Gulliet-23.png",
@@ -104,7 +104,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://jeremy-gulliet.vercel.app/",
+    canonical: "https://www.jeremygulliet.fr/",
   },
 };
 
