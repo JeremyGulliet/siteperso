@@ -74,7 +74,7 @@ export default function About() {
           </div>
 
           <motion.div
-            className="hidden xl:flex flex-wrap items-center gap-2 text-justify  font-medium text-black justify-start text-xl"
+            className="hidden 2xl:flex flex-wrap items-center gap-2 text-justify  font-medium text-black justify-start text-xl"
             ref={bounceRef}
             initial={{ x: -1000 }}
             animate={isBounceInView ? { x: 0 } : { x: -1000 }}
@@ -91,7 +91,7 @@ export default function About() {
             </p>{" "}
             ton activité ? 🚀
           </motion.div>
-          <div className="flex flex-wrap items-center justify-center gap-2 text-justify text-lg font-medium text-black md:justify-start md:text-xl xl:hidden">
+          <div className="flex flex-wrap items-center justify-center gap-2 text-justify text-lg font-medium text-black md:justify-start md:text-xl 2xl:hidden">
             🚀 Alors, prêt à faire{" "}
             <p className="-rotate-3 rounded-2xl bg-nebuleuse p-2 text-lg font-bold text-white md:text-xl">
               décoller
