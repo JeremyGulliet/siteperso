@@ -34,7 +34,7 @@ export const cards: Card[] = [
         id: 5,
         value: "item-5",
         title: "Est ce que je peux gérer mon site moi-même ?",
-        content: "je peux vous créer une interface administrateur pour que vous puissiez gérer votre site vous-même. Je vous forme à l'utilisation de cet outil.",
+        content: "Je peux vous créer une interface administrateur pour que vous puissiez gérer votre site vous-même. Je vous forme à l'utilisation de cet outil.",
     },
     {
         id: 6,
