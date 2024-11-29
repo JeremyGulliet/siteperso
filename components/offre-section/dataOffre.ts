@@ -13,7 +13,7 @@ export const cards: Card[] = [
     title: "Intégration",
     subtitle: "Landing page et site vitrine",
     features: [
-      "Herbegement offert",
+      "Hébergement offert",
       "Optimisation SEO",
       "Code complet sur Github",
       "Mise à jour gratuite du projet pendant 30 jours",
@@ -26,7 +26,7 @@ export const cards: Card[] = [
     title: "Création de A à Z",
     subtitle: "Landing page, site vitrine, site e-commerce, SAAS, blog...",
     features: [
-      "Herbegement offert",
+      "Hébergement offert",
       "Optimisation SEO",
       "Code complet sur Github",
       "Mise à jour gratuite du projet pendant 30 jours",
