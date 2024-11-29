@@ -9,7 +9,7 @@ export const cards: Card[] = [
     id: 1,
     title: "Découverte",
     description:
-      "Nous découvrons ensemble ton projet, tes besoins et tes attentes lors d'un rendez-vous découverte.\n\nCela me permettra de te proposer une solution adaptée à ton projet.",
+      "Nous définissons ensemble ton projet, tes besoins et tes attentes lors d'un rendez-vous découverte.\n\nCela me permettra de te proposer une solution adaptée à ton projet.",
   },
   {
     id: 2,

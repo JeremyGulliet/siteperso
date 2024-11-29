@@ -36,7 +36,7 @@ export default function About() {
       className="scroll-mt-header-responsive lg:scroll-mt-header flex flex-col items-center justify-center gap-8 bg-lightPurple py-4 md:gap-16 md:py-12"
     >
       <h1 className="px-4 text-center text-2xl font-extrabold leading-tight text-nebuleuse md:text-5xl md:leading-snug">
-        Une personne au service de ton image
+        Je t'accompagne pour créer un site au service de ton activité
       </h1>
 
       <div className="flex w-full flex-col items-center gap-8 px-4 md:px-6 lg:w-10/12 lg:flex-row lg:gap-20 xl:w-9/12">

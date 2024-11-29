@@ -15,7 +15,7 @@ export const cards: Card[] = [
     features: [
       "Herbegement offert",
       "Optimisation SEO",
-      "Repository Github",
+      "Code complet sur Github",
       "Mise à jour gratuite du projet pendant 30 jours",
       "Accompagnement à la création de ton propre nom de domaine",
       "Maintenance offerte à vie (hors ajout de fonctionnalités et mise à jour de contenu)",
@@ -28,7 +28,7 @@ export const cards: Card[] = [
     features: [
       "Herbegement offert",
       "Optimisation SEO",
-      "Repository Github",
+      "Code complet sur Github",
       "Mise à jour gratuite du projet pendant 30 jours",
       "Accompagnement à la création de ton propre nom de domaine",
       "Maintenance offerte à vie (hors ajout de fonctionnalités et mise à jour de contenu)",
