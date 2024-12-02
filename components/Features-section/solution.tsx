@@ -24,6 +24,7 @@ export default function Solution() {
             key={card.id}
             title={card.title}
             description={card.description}
+            icon={card.icon}
           />
         ))}
       </div>

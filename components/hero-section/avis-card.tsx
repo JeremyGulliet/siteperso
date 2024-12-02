@@ -18,7 +18,7 @@ export default function AvisCard({
       <CardContent className="px-4 py-8 md:px-6 md:py-12">
         <div className="relative">
           <ImQuotesLeft className="absolute -left-2 -top-6 h-6 w-6 text-purple md:-top-10 md:h-8 md:w-8" />
-          <p className="line-clamp-3 px-2 text-sm font-medium italic text-black transition-all duration-300 ease-in-out group-hover:line-clamp-none group-hover:cursor-pointer md:text-base">
+          <p className="px-2 text-sm font-medium italic text-black md:text-base">
             {texte}
           </p>
           <ImQuotesRight className="absolute -bottom-6 -right-2 h-6 w-6 text-purple md:-bottom-10 md:h-8 md:w-8" />

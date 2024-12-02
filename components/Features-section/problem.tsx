@@ -7,7 +7,7 @@ import { useRef } from "react";
 export default function Problem() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, {
-    once: false,
+    once: true,
     amount: 0.3,
   });
 
