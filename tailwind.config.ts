@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -14,8 +13,8 @@ const config: Config = {
         nebuleuse: "#572c9b",
         purple: "#a179e0",
         lightPurple: "#e6e6ff",
-		espace: "#16234e",
-		black:"#1d1d1b",
+        espace: "#16234e",
+        black: "#1d1d1b",
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -58,6 +57,7 @@ const config: Config = {
           "5": "hsl(var(--chart-5))",
         },
       },
+
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -80,14 +80,23 @@ const config: Config = {
             height: "0",
           },
         },
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        shimmer: "shimmer 2s linear infinite",
       },
     },
   },
-  
+
   plugins: [require("tailwindcss-animate")],
 };
 export default config;

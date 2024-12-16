@@ -17,11 +17,11 @@ export default function AvisCard({
     <Card className="group mx-auto w-full max-w-md bg-white">
       <CardContent className="px-4 py-8 md:px-6 md:py-12">
         <div className="relative">
-          <ImQuotesLeft className="absolute -left-2 -top-6 h-6 w-6 text-purple md:-top-10 md:h-8 md:w-8" />
+          <ImQuotesLeft className="absolute -left-2 -top-6 size-6 text-purple md:-top-10 md:size-8" />
           <p className="px-2 text-sm font-medium italic text-black md:text-base">
             {texte}
           </p>
-          <ImQuotesRight className="absolute -bottom-6 -right-2 h-6 w-6 text-purple md:-bottom-10 md:h-8 md:w-8" />
+          <ImQuotesRight className="absolute -bottom-6 -right-2 size-6 text-purple md:-bottom-10 md:size-8" />
         </div>
       </CardContent>
       <CardFooter className="flex items-center gap-2 rounded-b-xl border-t border-purple bg-nebuleuse p-3 pt-2 md:gap-4 md:p-4">

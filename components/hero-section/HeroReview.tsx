@@ -6,11 +6,11 @@ export default function HeroReview() {
 
   return (
     <main className="flex flex-col items-center justify-center px-4 md:px-0">
-      <div className="mb-4 md:mb-6 flex items-center gap-1 md:gap-2">
+      <div className="mb-4 flex items-center gap-1 md:mb-6 md:gap-2">
         {stars.map((_, index) => (
           <FaStar
             key={index}
-            className="cursor-pointer text-2xl md:text-3xl text-yellow-400 transition-transform hover:scale-110"
+            className="cursor-pointer text-2xl text-yellow-400 transition-transform hover:scale-110 md:text-3xl"
           />
         ))}
       </div>

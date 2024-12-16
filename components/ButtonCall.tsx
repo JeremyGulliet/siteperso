@@ -12,10 +12,13 @@ export default function ButtonCall({
     <Link
       href="https://cal.com/jeremy-gulliet/rendez-vous-decouverte"
       target="_blank"
-      className={`flex scale-100 items-center justify-center gap-2 rounded-2xl ${bgColor} px-4 py-2 font-bold text-white hover:bg-opacity-80 md:scale-105 lg:scale-110`}
+      className="relative inline-flex h-10 overflow-hidden rounded-full p-px hover:scale-105 sm:h-12"
     >
-      <FaPhone />
-      <p className="text-base">Je réserve mon appel</p>
+      <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+      <span className="inline-flex size-full cursor-pointer items-center justify-center gap-2 rounded-full bg-nebuleuse px-2 py-1 text-base font-bold text-white backdrop-blur-3xl sm:gap-4 sm:px-3 sm:text-lg">
+        <FaPhone className="text-sm sm:text-base" />
+        Réserve ton appel
+      </span>
     </Link>
   );
 }
