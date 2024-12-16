@@ -1,6 +1,7 @@
 interface Card {
     id: number;
-    title: string;
+  title: string;
+  price: number | string;
     subtitle?: string;
   features?: string[];
  }
@@ -10,9 +11,13 @@ interface Card {
 export const cards: Card[] = [
   {
     id: 1,
-    title: "Intégration",
-    subtitle: "Landing page et site vitrine",
+    title: "Landing Page",
+    subtitle: "L'essentiel pour te faire connaître",
+    price: 1500,
     features: [
+      "1 page",
+      "Design sur mesure",
+      "Copywriting",
       "Hébergement offert",
       "Optimisation SEO",
       "Code complet sur Github",
@@ -23,9 +28,13 @@ export const cards: Card[] = [
   },
   {
     id: 2,
-    title: "Création de A à Z",
-    subtitle: "Landing page, site vitrine, site e-commerce, SAAS, blog...",
+    title: "Site vitrine",
+    subtitle: "Un site pour présenter ton activité",
+    price: 4500,
     features: [
+      "5 pages à ton image",
+      "Design sur mesure",
+      "Copywriting",
       "Hébergement offert",
       "Optimisation SEO",
       "Code complet sur Github",

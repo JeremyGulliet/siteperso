@@ -10,7 +10,8 @@ export const cards: card[] = [
   {
     id: 1,
     title: "Création d'un site vitrine de A à Z",
-    description: "J'ai réalisé ce site en partant de 0. J'ai créé le design, le contenu, le développement et le déploiement.",
+    description:
+      "J'ai réalisé ce site en partant de 0. J'ai créé le design, le contenu, le développement et le déploiement.",
     image: "/asset/Images/Portfolio.png",
     link: "https://portfolio-jeremy-gulliet.vercel.app/",
   },
@@ -26,8 +27,17 @@ export const cards: card[] = [
   {
     id: 3,
     title: "Intégration d'une maquette",
-    description: "Dans le cadre d'un challenge sur Spikes, j'ai intégré une maquette de landing page.",
+    description:
+      "Dans le cadre d'un challenge sur Spikes, j'ai intégré une maquette de landing page.",
     image: "/asset/Images/LandingPage-Spikes.png",
     link: "https://landing-page-spikes.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Intégration d'une maquette",
+    description:
+      "Dans le cadre d'un challenge sur Spikes, j'ai intégré une maquette de landing page.",
+    image: "/asset/Images/Squaree.png",
+    link: "https://squaree-landing.vercel.app/",
   },
 ];

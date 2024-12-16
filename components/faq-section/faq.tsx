@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import { cards } from "@/components/faq-section/dataFaq";
-import ButtonCall from "../ButtonCall";
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
+import HeroButton from "../hero-section/heroButton";
 
 export default function Faq() {
   const [activeItem, setActiveItem] = useState<string | null>(null);
@@ -43,7 +43,7 @@ export default function Faq() {
               >
                 <p className="text-start"> {card.title}</p>
                 <ChevronDown
-                  className={`h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 ${
+                  className={`size-4 shrink-0 text-muted-foreground transition-transform duration-200 ${
                     activeItem === card.value ? "rotate-180" : ""
                   }`}
                 />
@@ -65,7 +65,7 @@ export default function Faq() {
         </p>{" "}
         ton activité ? 🚀
       </div>
-      <ButtonCall />
+      <HeroButton />
     </main>
   );
 }
