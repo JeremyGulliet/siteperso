@@ -77,7 +77,7 @@ export default function ResponsiveMenu() {
             quality={75}
             priority={true}
             loading="eager"
-            className="h-auto w-auto"
+            className="size-auto"
           />
         </div>
       </SheetContent>

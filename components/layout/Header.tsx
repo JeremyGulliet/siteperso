@@ -18,7 +18,7 @@ const navBar: NavItem[] = [
 
 export default function Header() {
   return (
-    <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-center border-b border-nebuleuse bg-gradient-to-r from-espace to-black py-6 text-white">
+    <header className="fixed inset-x-0 top-0 z-50 flex items-center justify-center border-b border-nebuleuse bg-gradient-to-r from-espace to-black py-6 text-white">
       <div className="flex w-full items-center justify-around">
         <Link
           href="/"
@@ -32,7 +32,7 @@ export default function Header() {
             quality={75}
             priority={true}
             loading="eager"
-            className="hidden h-auto w-auto max-w-[100px] md:block md:max-w-[125px] lg:max-w-[150px] xl:max-w-[175px]"
+            className="hidden size-auto max-w-[100px] md:block md:max-w-[125px] lg:max-w-[150px] xl:max-w-[175px]"
           />
         </Link>
 

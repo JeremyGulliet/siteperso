@@ -16,22 +16,18 @@ export default function ProjectCarousel() {
   }, []);
 
   const getPosition = (index: number) => {
-    // Calculer la différence entre l'index actuel et l'index de la carte
     let diff = index - currentIndex;
-
-    // Ajustement pour que les cartes continuent de défiler
     if (diff < -1) {
       diff += cards.length;
     } else if (diff > 1) {
       diff -= cards.length;
     }
-
     return diff;
   };
 
   return (
-    <div className="relative mb-8 flex h-[650px] w-full items-center justify-center">
-      <div className="relative h-[500px] w-[1800px]">
+    <div className="relative mb-4 flex h-[400px] w-full items-center justify-center overflow-hidden sm:h-[500px] md:mb-8 md:h-[600px] lg:h-[650px]">
+      <div className="relative h-[300px] w-full sm:h-[400px] md:h-[450px] md:w-[90%] lg:h-[500px] lg:w-[1800px]">
         {cards.map((card, i) => {
           const position = getPosition(i);
           const isVisible = position >= -1 && position <= 1;
@@ -41,10 +37,10 @@ export default function ProjectCarousel() {
           return (
             <motion.div
               key={card.id}
-              className="absolute left-1/2 top-0 h-[500px] w-[900px]"
+              className="absolute left-1/2 top-0 h-[300px] w-[280px] sm:h-[400px] sm:w-[600px] md:h-[450px] md:w-[700px] lg:h-[500px] lg:w-[900px]"
               initial={false}
               animate={{
-                x: `calc(${position * 65}% - 50%)`,
+                x: `calc(${position * 45}% - 50%)`,
                 scale: position === 0 ? 1 : 0.5,
                 opacity: position === 0 ? 1 : 0.3,
                 zIndex: position === 0 ? 2 : 1,

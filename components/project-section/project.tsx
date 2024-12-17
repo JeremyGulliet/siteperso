@@ -5,7 +5,7 @@ export default function Project() {
   return (
     <main
       id="réalisations"
-      className="scroll-mt-header-responsive lg:scroll-mt-header flex flex-col items-center bg-lightPurple px-4 py-8 sm:px-6 sm:py-12"
+      className="scroll-mt-header-responsive lg:scroll-mt-header flex flex-col items-center overflow-hidden bg-lightPurple px-4 py-8 sm:px-6 sm:py-12"
     >
       <h1 className="text-center text-2xl font-extrabold leading-tight text-nebuleuse sm:text-[32px] md:text-5xl md:leading-snug">
         Mes réalisations
