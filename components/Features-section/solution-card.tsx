@@ -10,7 +10,7 @@ export default function SolutionCard({ title, description, icon }: SolutionCardP
   return (
     <Card className="mx-auto w-full max-w-lg bg-white">
       <CardHeader className="rounded-t-xl bg-nebuleuse">
-        <CardTitle className=" flex flex-row justify-center items-center text-center text-3xl font-bold text-white gap-2">
+        <CardTitle className=" flex flex-row items-center justify-center gap-2 text-center text-3xl font-bold text-white">
           <span className="text-4xl">{icon}</span>
           {title}
         </CardTitle>

@@ -74,7 +74,7 @@ export default function About() {
           </div>
 
           <motion.div
-            className="hidden 2xl:flex flex-wrap items-center gap-2 text-justify  font-medium text-black justify-start text-xl"
+            className="hidden flex-wrap items-center justify-start gap-2 text-justify  text-xl font-medium text-black 2xl:flex"
             ref={bounceRef}
             initial={{ x: -1000 }}
             animate={isBounceInView ? { x: 0 } : { x: -1000 }}

@@ -13,24 +13,12 @@ export default function Home() {
       <AnimatedSection>
         <Hero />
       </AnimatedSection>
-      <AnimatedSection>
-        <Problem />
-      </AnimatedSection>
-      <AnimatedSection>
-        <Solution />
-      </AnimatedSection>
-      <AnimatedSection>
-        <About />
-      </AnimatedSection>
-      <AnimatedSection>
-        <Offre />
-      </AnimatedSection>
-      <AnimatedSection>
-        <Project />
-      </AnimatedSection>
-      <AnimatedSection>
-        <Faq />
-      </AnimatedSection>
+      <Problem />
+      <Solution />
+      <About />
+      <Offre />
+      <Project />
+      <Faq />
     </div>
   );
 }

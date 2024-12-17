@@ -8,7 +8,7 @@ export const AnimatedSection = ({
   children: React.ReactNode;
 }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
 
   return (
     <motion.div

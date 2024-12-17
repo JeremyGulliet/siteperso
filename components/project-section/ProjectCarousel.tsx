@@ -67,6 +67,7 @@ export default function ProjectCarousel() {
           );
         })}
       </div>
+      
     </div>
   );
 }
