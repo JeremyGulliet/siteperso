@@ -15,9 +15,9 @@ export default function Home() {
       </AnimatedSection>
       <Problem />
       <Solution />
-      <About />
-      <Offre />
       <Project />
+      <Offre />
+      <About />
       <Faq />
     </div>
   );

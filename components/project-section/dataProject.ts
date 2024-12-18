@@ -40,4 +40,12 @@ export const cards: card[] = [
     image: "/asset/Images/Squaree.png",
     link: "https://squaree-landing.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Intégration d'une maquette",
+    description:
+      "Dans le cadre d'un challenge sur Spikes, j'ai intégré une maquette de landing page.",
+    image: "/asset/Images/Sell-Challenge.png",
+    link: "https://sell-landing.vercel.app/",
+  },
 ];

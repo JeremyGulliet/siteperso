@@ -1,8 +1,8 @@
 "use client";
 
 import HeroButton from "../hero-section/heroButton";
-import { GradientWaveDivider } from "../GradientWaveDivider";
 import ProjectCarousel from "./ProjectCarousel";
+import { GradientWaveDivider } from "../GradientWaveDivider";
 
 export default function Project() {
   return (

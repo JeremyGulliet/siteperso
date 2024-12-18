@@ -10,9 +10,9 @@ interface NavItem {
 const navBar: NavItem[] = [
   { href: "/#", label: "Découvrir" },
   { href: "/#accompagnement", label: "Accompagnement" },
-  { href: "/#about", label: "A propos" },
   { href: "/#réalisations", label: "Réalisations" },
   { href: "/#offres", label: "Offres" },
+  { href: "/#about", label: "A propos" },
   { href: "/#FAQ", label: "FAQ" },
 ];
 

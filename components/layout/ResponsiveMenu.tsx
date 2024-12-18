@@ -25,13 +25,13 @@ const menuItems = [
     label: "Accompagnement",
     icon: <MdOutlineAssignment />,
   },
-  { href: "/#about", label: "A propos", icon: <BsPerson /> },
   {
     href: "/#réalisations",
     label: "Réalisations",
     icon: <AiOutlineFundProjectionScreen />,
   },
   { href: "/#offres", label: "Offres", icon: <MdOutlineLocalOffer /> },
+  { href: "/#about", label: "A propos", icon: <BsPerson /> },
   { href: "/#FAQ", label: "FAQ", icon: <AiOutlineQuestionCircle /> },
 ];
 
