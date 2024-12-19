@@ -10,7 +10,7 @@ export default function HeroReview() {
         {stars.map((_, index) => (
           <FaStar
             key={index}
-            className="cursor-pointer text-2xl text-yellow-400 transition-transform hover:scale-110 md:text-3xl"
+            className="text-2xl text-yellow-400 transition-transform md:text-3xl"
           />
         ))}
       </div>

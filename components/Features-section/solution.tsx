@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import HeroButton from "../hero-section/heroButton";
 import { PurpleWaveDivider } from "../PurpleWaveDivider";
 import { cards } from "./dataSolution";
 import SolutionCard from "./solution-card";
@@ -20,16 +21,18 @@ export default function Solution() {
           </span>
         </p>
 
-        <div className="flex w-full max-w-7xl flex-wrap justify-center gap-8 pt-4">
+        <div className="container mx-auto grid grid-cols-1 gap-8 px-4 py-16 md:grid-cols-2 xl:grid-cols-2 xl:gap-12">
           {cards.map((card) => (
             <SolutionCard
               key={card.id}
               title={card.title}
               description={card.description}
               icon={card.icon}
+              image={card.image}
             />
           ))}
         </div>
+        <HeroButton />
       </main>
       <PurpleWaveDivider />
     </section>

@@ -35,7 +35,7 @@ export default function About() {
     <section className="relative">
       <main
         id="about"
-        className="scroll-mt-header-responsive lg:scroll-mt-header flex flex-col items-center justify-center gap-8 bg-lightPurple py-4 md:gap-16 md:py-12"
+        className="scroll-mt-header-responsive lg:scroll-mt-header flex flex-col items-center justify-center gap-8 bg-lightPurple py-4 md:gap-16 md:pb-20 md:pt-12"
       >
         <h1 className="px-4 text-center text-2xl font-extrabold leading-tight text-nebuleuse md:text-5xl md:leading-snug">
           Je t'accompagne pour créer un site au service de ton activité

@@ -12,6 +12,8 @@
     "@radix-ui/react-accordion": "^1.2.1",
     "@radix-ui/react-avatar": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-tooltip": "^1.1.6",
+    "@tabler/icons-react": "^3.26.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "eslint-plugin-tailwindcss": "^3.17.5",

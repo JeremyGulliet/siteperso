@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
+
 export default function HeroTitle() {
   return (
-    <div
-      className="flex flex-col items-center justify-center px-4 pt-2 md:px-0 lg:pt-10"
-    >
+    <div className="flex flex-col items-center justify-center px-4 pt-2 md:px-0 lg:pt-10">
       <h1 className="text-center text-[32px] font-extrabold leading-tight text-purple md:hidden">
         Montre qui tu es vraiment et <br />
         <span className="rounded-2xl bg-nebuleuse px-2 py-1 text-white">
@@ -23,7 +22,7 @@ export default function HeroTitle() {
         image.
       </h2>
       <h3 className="lg:text2xl pt-8 text-center text-lg font-medium text-white md:text-2xl">
-        Prêt à faire décoller ton activité ? 🚀
+          Prêt à faire décoller ton activité ? 🚀
       </h3>
     </div>
   );
