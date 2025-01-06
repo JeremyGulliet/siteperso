@@ -23,7 +23,7 @@ export default function Problem() {
           Comment concrétiser mon projet ?
         </h1>
 
-        <div className="flex flex-col items-center justify-center gap-40 px-4 pb-12 lg:flex-row lg:gap-52">
+        <div className="flex flex-col items-center justify-center gap-40 px-4 pb-12 lg:flex-row lg:gap-20 xl:gap-52">
           <div className="flex items-center justify-center">
             <Image
               src="/asset/Images/Developpement.jpg"
@@ -33,7 +33,7 @@ export default function Problem() {
               quality={70}
               priority={true}
               loading="eager"
-              className="w-full max-w-[250px] rounded-2xl object-contain sm:max-w-[300px] md:max-w-[350px] lg:max-w-[500px]"
+              className="w-full max-w-[250px] rounded-2xl object-contain sm:max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-[450px]"
             />
           </div>
 

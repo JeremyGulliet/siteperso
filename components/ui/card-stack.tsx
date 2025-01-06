@@ -83,7 +83,7 @@ export const CardStack = ({
   return (
     <TooltipProvider>
       <div
-        className="relative size-[300px] md:h-[300px] md:w-[600px]"
+        className="relative size-[300px] md:h-[300px] md:w-[600px] lg:h-[300px] lg:w-[500px] xl:h-[300px] xl:w-[600px]"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -91,7 +91,7 @@ export const CardStack = ({
           const cardContent = (
             <motion.div
               key={card.id}
-              className="absolute flex size-[300px] cursor-grab flex-col justify-between rounded-3xl border border-white/20 bg-gradient-to-r from-purple to-nebuleuse p-6 shadow-xl shadow-black/[0.1] active:cursor-grabbing md:h-[300px] md:w-[600px] md:p-8"
+              className="absolute flex size-[300px] cursor-grab flex-col justify-between rounded-3xl border border-white/20 bg-gradient-to-r from-purple to-nebuleuse p-6 shadow-xl shadow-black/[0.1] active:cursor-grabbing md:h-[300px] md:w-[600px] md:p-8 lg:h-[300px] lg:w-[500px] xl:h-[300px] xl:w-[600px]"
               style={{
                 transformOrigin: "top center",
               }}
@@ -126,11 +126,14 @@ export const CardStack = ({
           );
           return index === 0 ? (
             <Tooltip key={card.id}>
-              <TooltipTrigger asChild>
-                {cardContent}
-              </TooltipTrigger>
-              <TooltipContent side="bottom" className="rounded-2xl bg-nebuleuse">
-                <p className="text-lg font-bold text-white">Glissez pour voir la carte suivante</p>
+              <TooltipTrigger asChild>{cardContent}</TooltipTrigger>
+              <TooltipContent
+                side="bottom"
+                className="rounded-2xl bg-nebuleuse"
+              >
+                <p className="text-lg font-bold text-white">
+                  Glissez pour voir la carte suivante
+                </p>
               </TooltipContent>
             </Tooltip>
           ) : (
